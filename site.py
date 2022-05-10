@@ -1,9 +1,10 @@
 from flask import Flask, redirect, url_for, render_template, request, flash, Markup, abort
 from datab import url_in_db, key_in_db, genNewURL
 import re
+import os
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "yj4fc8kt9s436798lo5fth7sw43g5k"
+app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
 base_url = "localhost:5000"
 
 
