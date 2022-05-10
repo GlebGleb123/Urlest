@@ -1,0 +1,50 @@
+.page {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	width: 100%;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+.sub-title {
+	color: skyblue;
+}
+
+
+input {
+	width: 100%;
+	align: center;
+}
+
+input[type="submit"] {
+	padding: 2%;
+	font-size: 40px;
+	font-family: sans-serif;
+	margin-top: 20px;
+}
+
+input[type="text"] {
+	font-size: 40px;
+	border: 3px solid #cecece;
+	border-radius: 8px;
+}
+
+.flash {padding: 10px; margin-top: 10px; margin-bottom: 20px; font-size: 30px;}
+.flash.success {
+	border: 1px solid #21DB56;
+	background: #AEFFC5;
+}
+
+.flash.error {
+	border: 1px solid #FF4343;
+	background: #FF9C9C;
+}
+
+	
